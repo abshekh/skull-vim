@@ -106,32 +106,32 @@ hi Directory                    guifg=#7EAE81    guibg=#222222    ctermfg=grey  
 hi clear SignColumn
 
 " LSP
-hi DiagnosticError              guifg=#FB4934    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi DiagnosticHint               guifg=#D79921    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi DiagnosticInfo               guifg=#FFFFFF    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi DiagnosticWarn               guifg=#D65D0E    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi DiagnosticInformation        guifg=#D79921    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
-hi DiagnosticTruncateLine       guifg=#FFFFFF    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
-hi DiagnosticUnderlineError     guifg=#CC241D    guibg=#222222    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
-hi DiagnosticUnderlineHint      guifg=#CC241D    guibg=#222222    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
-hi DiagnosticUnderlineInfo      guifg=#CC241D    guibg=#222222    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
-hi DiagnosticUnderlineWarn      guifg=#CC241D    guibg=#222222    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
+hi DiagnosticError              guifg=#FB4934    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi DiagnosticHint               guifg=#D79921    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi DiagnosticInfo               guifg=#FFFFFF    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi DiagnosticWarn               guifg=#D65D0E    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi DiagnosticInformation        guifg=#D79921    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
+hi DiagnosticTruncateLine       guifg=#FFFFFF    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
+hi DiagnosticUnderlineError     guifg=#CC241D    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
+hi DiagnosticUnderlineHint      guifg=#CC241D    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
+hi DiagnosticUnderlineInfo      guifg=#CC241D    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
+hi DiagnosticUnderlineWarn      guifg=#CC241D    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
 hi LspDiagnosticsFloatingError  guifg=#CC241D    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi LspDiagnosticsFloatingHint   guifg=#D79921    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi LspDiagnosticsFloatingInfor  guifg=#FFFFFF    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi LspDiagnosticsFloatingWarn   guifg=#D65D0E    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi LspFloatWinBorder            guifg=#2C2C2C    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi LspFloatWinNormal            guifg=#FFFFFF    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi LspReferenceRead             guifg=NONE       guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi LspReferenceText             guifg=NONE       guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi LspReferenceWrite            guifg=NONE       guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi ProviderTruncateLine         guifg=#FFFFFF    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspReferenceRead             guifg=NONE       guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspReferenceText             guifg=NONE       guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspReferenceWrite            guifg=NONE       guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi ProviderTruncateLine         guifg=#FFFFFF    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 
 " Treesitter
 hi TSError                      guifg=#FB4934    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSPunctDelimiter             guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSPunctBracket               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TSPunctSpecial               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSPunctSpecial               guifg=#414141    guibg=#222222    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
 hi TSConstant                   guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSConstBuiltin               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSConstMacro                 guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
