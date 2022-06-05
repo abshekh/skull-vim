@@ -69,11 +69,12 @@ hi MoreMsg                      guifg=#A0A0A0    guibg=#222222    ctermfg=grey  
 hi NonText                      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Normal                       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi PmenuSbar                    guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi PmenuSel                     guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
+hi PmenuSel                     guifg=#222222    guibg=#7EAE81    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
 hi PmenuThumb                   guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi PreProc                      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 
-hi Special                      guifg=#414141    guibg=#222222    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
+" hi Special                      guifg=#414141    guibg=#222222    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
+hi Special                      guifg=#A0A0A0    guibg=#222222    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
 hi Operator                     guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
 
 hi SpecialKey                   guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
@@ -131,7 +132,7 @@ hi ProviderTruncateLine         guifg=#FFFFFF    guibg=#2C2C2C    ctermfg=grey  
 hi TSError                      guifg=#FB4934    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSPunctDelimiter             guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSPunctBracket               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TSPunctSpecial               guifg=#414141    guibg=#222222    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
+hi TSPunctSpecial               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 hi TSConstant                   guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSConstBuiltin               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSConstMacro                 guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
