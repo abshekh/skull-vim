@@ -47,7 +47,7 @@ hi String                       guifg=#D3D3D3    guibg=#222222    ctermfg=white 
 "" grey fg w/white bg
 hi CursorColumn                 guifg=#FFFFFF    guibg=#2C2C2C    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
 hi ColorColumn                  guifg=#2C2C2C    guibg=#2C2C2C    ctermfg=black    ctermbg=black
-hi CursorLine                   guibg=#2C2C2C    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
+hi CursorLine                   guifg=NONE       guibg=#2C2C2C    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
 hi CursorLineNr                 guifg=#7EAE81    guibg=#2C2C2C    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
 
 "" grey fg w/black bg
@@ -58,7 +58,7 @@ hi DiffText                     guifg=#A0A0A0    guibg=#222222    ctermfg=grey  
 hi Directory                    guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Error                        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Folded                       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Function                     guifg=#7C7C7C    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
+hi Function                     guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=ITALIC
 hi Identifier                   guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Ignore                       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Label                        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
@@ -145,12 +145,12 @@ hi TSFloat                      guifg=#A0A0A0    guibg=NONE       ctermfg=grey  
 hi TSAnnotation                 guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSAttribute                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSNamespace                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TSFuncBuiltin                guifg=#7EAE81    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TSFunction                   guifg=#7EAE81    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSFuncBuiltin                guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=ITALIC
+hi TSFunction                   guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=ITALIC
 hi TSFuncMacro                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSParameter                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSParameterReference         guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TSMethod                     guifg=#7EAE81    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSMethod                     guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=ITALIC
 hi TSField                      guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSProperty                   guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSConstructor                guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
@@ -159,8 +159,8 @@ hi TSRepeat                     guifg=#A0A0A0    guibg=NONE       ctermfg=grey  
 hi TSLabel                      guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSKeyword                    guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSKeywordFunction            guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TSKeywordOperator            guifg=#7EAE81    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TSOperator                   guifg=#7EAE81    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSKeywordOperator            guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSOperator                   guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSException                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSType                       guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSTypeBuiltin                guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
