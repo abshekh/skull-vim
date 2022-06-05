@@ -58,7 +58,7 @@ hi DiffText                     guifg=#A0A0A0    guibg=#222222    ctermfg=grey  
 hi Directory                    guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Error                        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Folded                       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Function                     guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=ITALIC
+hi Function                     guifg=#7C7C7C    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 hi Identifier                   guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Ignore                       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Label                        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
@@ -145,12 +145,12 @@ hi TSFloat                      guifg=#A0A0A0    guibg=NONE       ctermfg=grey  
 hi TSAnnotation                 guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSAttribute                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSNamespace                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TSFuncBuiltin                guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=ITALIC
-hi TSFunction                   guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=ITALIC
+hi TSFuncBuiltin                guifg=#7C7C7C    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
+hi TSFunction                   guifg=#7C7C7C    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 hi TSFuncMacro                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSParameter                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSParameterReference         guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TSMethod                     guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=ITALIC
+hi TSMethod                     guifg=#7C7C7C    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 hi TSField                      guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSProperty                   guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi TSConstructor                guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
