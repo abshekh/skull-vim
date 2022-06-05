@@ -32,38 +32,38 @@ set background=dark
 
 "" black fg w/white bg
 hi Cursor                       guifg=#FFFFFF    guibg=#000000    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
-hi IncSearch                    guifg=#FFFFFF    guibg=#000000    ctermfg=white    ctermbg=black    gui=ITALIC       cterm=NONE
-hi Search                       guifg=#268bd2    guibg=#2c2c2c    ctermfg=white    ctermbg=black    gui=ITALIC       cterm=NONE
-hi Visual                       guifg=#7eae81    guibg=#2c2c2c    ctermfg=white    ctermbg=black    gui=ITALIC       cterm=NONE
-hi VisualNOS                    guifg=#7eae81    guibg=#2c2c2c    ctermfg=white    ctermbg=black    gui=ITALIC       cterm=NONE
+hi Search                       guifg=#D79921    guibg=#222222    ctermfg=black    ctermbg=white    gui=ITALIC       cterm=NONE
+hi IncSearch                    guifg=#D79921    guibg=#222222    ctermfg=black    ctermbg=white    gui=ITALIC       cterm=NONE
+hi Visual                       guifg=#7EAE81    guibg=#2C2C2C    ctermfg=white    ctermbg=black    gui=ITALIC       cterm=NONE
+hi VisualNOS                    guifg=#7EAE81    guibg=#2C2C2C    ctermfg=white    ctermbg=black    gui=ITALIC       cterm=NONE
 
 "" white fg w/black bg
 hi Constant                     guifg=#A0A0A0    guibg=#222222    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
 hi DiffAdd                      guifg=#A0A0A0    guibg=#222222    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
 hi Number                       guifg=#707070    guibg=#222222    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
-hi Pmenu                        guifg=#7eae81    guibg=#2c2c2c    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
-hi String                       guifg=#d3d3d3    guibg=#222222    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
+hi Pmenu                        guifg=#7EAE81    guibg=#2C2C2C    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
+hi String                       guifg=#D3D3D3    guibg=#222222    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
 
 "" grey fg w/white bg
-hi CursorColumn                 guifg=#FFFFFF    guibg=#2c2c2c    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
-hi ColorColumn                  guifg=#2c2c2c    guibg=#2c2c2c    ctermfg=black    ctermbg=black
-hi CursorLine                   guibg=#2c2c2c    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
-hi CursorLineNr                 guifg=#7eae81    guibg=#2c2c2c    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
+hi CursorColumn                 guifg=#FFFFFF    guibg=#2C2C2C    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
+hi ColorColumn                  guifg=#2C2C2C    guibg=#2C2C2C    ctermfg=black    ctermbg=black
+hi CursorLine                   guibg=#2C2C2C    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
+hi CursorLineNr                 guifg=#7EAE81    guibg=#2C2C2C    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
 
 "" grey fg w/black bg
-hi Comment                      guifg=#7eae81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
+hi Comment                      guifg=#6D6D6D    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
 hi DiffChange                   guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi DiffDelete                   guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi DiffText                     guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Directory                    guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Error                        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Folded                       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Function                     guifg=#7c7c7c    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
+hi Function                     guifg=#7C7C7C    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 hi Identifier                   guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Ignore                       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi Label                        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 hi LineNr                       guifg=#393939    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi MatchParen                   guifg=#000000    guibg=#7eae81    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi MatchParen                   guifg=#000000    guibg=#7EAE81    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi ModeMsg                      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi MoreMsg                      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi NonText                      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
@@ -74,12 +74,12 @@ hi PmenuThumb                   guifg=#A0A0A0    guibg=#222222    ctermfg=grey  
 hi PreProc                      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 
 hi Special                      guifg=#414141    guibg=#222222    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
-hi Operator                     guifg=#7eae81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
+hi Operator                     guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
 
 hi SpecialKey                   guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
 hi Statement                    guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 
-hi StatusLine                   guifg=#000000    guibg=#7eae81    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi StatusLine                   guifg=#000000    guibg=#7EAE81    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 
 hi StatusLineNC                 guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
 hi StorageClass                 guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
@@ -101,21 +101,108 @@ hi htmlTagN                     guifg=#A0A0A0    guibg=#222222    ctermfg=grey  
 hi rubySymbol                   guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 hi NonText                      guifg=#393939    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
 
-hi Directory                    guifg=#7eae81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
-
-hi TelescopeNormal              guifg=#d3d3d3    guibg=#2c2c2c    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopeBorder              guifg=#161417    guibg=#2c2c2c    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopeTitle               guifg=#d3d3d3    guibg=#2c2c2c    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopeResultsBorder       guifg=#2c2c2c    guibg=#2c2c2c    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopeResultNormal        guifg=#d3d3d3    guibg=#2c2c2c    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopeResultsTitle        guifg=#d3d3d3    guibg=#2c2c2c    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopePreviewBorder       guifg=#2c2c2c    guibg=#2c2c2c    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopePreviewNormal       guifg=#d3d3d3    guibg=#2c2c2c    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopePreviewTitle        guifg=#d3d3d3    guibg=#2c2c2c    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopePromptBorder        guifg=#161417    guibg=#161417    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopePromptNormal        guifg=#d3d3d3    guibg=#161417    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopePromptPrefix        guifg=#d3d3d3    guibg=#161417    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopePromptTitle         guifg=#d3d3d3    guibg=#161417    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
-hi TelescopePromptCounter       guifg=#d3d3d3    guibg=#161417    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi Directory                    guifg=#7EAE81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
 
 hi clear SignColumn
+
+" LSP
+hi DiagnosticError              guifg=#FB4934    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi DiagnosticHint               guifg=#D79921    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi DiagnosticInfo               guifg=#FFFFFF    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi DiagnosticWarn               guifg=#D65D0E    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi DiagnosticInformation        guifg=#D79921    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
+hi DiagnosticTruncateLine       guifg=#FFFFFF    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=NONE
+hi DiagnosticUnderlineError     guifg=#CC241D    guibg=#222222    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
+hi DiagnosticUnderlineHint      guifg=#CC241D    guibg=#222222    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
+hi DiagnosticUnderlineInfo      guifg=#CC241D    guibg=#222222    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
+hi DiagnosticUnderlineWarn      guifg=#CC241D    guibg=#222222    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
+hi LspDiagnosticsFloatingError  guifg=#CC241D    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspDiagnosticsFloatingHint   guifg=#D79921    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspDiagnosticsFloatingInfor  guifg=#FFFFFF    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspDiagnosticsFloatingWarn   guifg=#D65D0E    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspFloatWinBorder            guifg=#2C2C2C    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspFloatWinNormal            guifg=#FFFFFF    guibg=#2C2C2C    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspReferenceRead             guifg=NONE       guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspReferenceText             guifg=NONE       guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi LspReferenceWrite            guifg=NONE       guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi ProviderTruncateLine         guifg=#FFFFFF    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+
+" Treesitter
+hi TSError                      guifg=#FB4934    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSPunctDelimiter             guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSPunctBracket               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSPunctSpecial               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSConstant                   guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSConstBuiltin               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSConstMacro                 guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSStringRegex                guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSString                     guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSStringEscap                guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSCharacter                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSNumber                     guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSBoolean                    guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSFloat                      guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSAnnotation                 guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSAttribute                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSNamespace                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSFuncBuiltin                guifg=#7EAE81    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSFunction                   guifg=#7EAE81    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSFuncMacro                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSParameter                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSParameterReference         guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSMethod                     guifg=#7EAE81    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSField                      guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSProperty                   guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSConstructor                guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSConditional                guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSRepeat                     guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSLabel                      guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSKeyword                    guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSKeywordFunction            guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSKeywordOperator            guifg=#7EAE81    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSOperator                   guifg=#7EAE81    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSException                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSType                       guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSTypeBuiltin                guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSStructure                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSInclude                    guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSVariable                   guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSVariableBuiltin            guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSText                       guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSTextReference              guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSStrong                     guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
+hi TSEmphasis                   guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=ITALIC
+hi TSUnderline                  guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSTitle                      guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSLiteral                    guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSURI                        guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=NONE
+hi TSTag                        guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi TSTagDelimiter               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi markdownTSNone               guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi markdownTSTitle              guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi markdownTSLiteral            guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi markdownTSPunctSpecial       guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi markdownTSPunctDelimiter     guifg=#A0A0A0    guibg=NONE       ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+
+" Telescope
+hi TelescopeNormal              guifg=#D3D3D3    guibg=#2C2C2C    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopeBorder              guifg=#161417    guibg=#2C2C2C    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopeTitle               guifg=#D3D3D3    guibg=#2C2C2C    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopeResultsBorder       guifg=#2C2C2C    guibg=#2C2C2C    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopeResultNormal        guifg=#D3D3D3    guibg=#2C2C2C    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopeResultsTitle        guifg=#D3D3D3    guibg=#2C2C2C    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopePreviewBorder       guifg=#2C2C2C    guibg=#2C2C2C    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopePreviewNormal       guifg=#D3D3D3    guibg=#2C2C2C    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopePreviewTitle        guifg=#D3D3D3    guibg=#2C2C2C    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopePromptBorder        guifg=#161417    guibg=#161417    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopePromptNormal        guifg=#D3D3D3    guibg=#161417    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopePromptPrefix        guifg=#D3D3D3    guibg=#161417    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopePromptTitle         guifg=#D3D3D3    guibg=#161417    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi TelescopePromptCounter       guifg=#D3D3D3    guibg=#161417    ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+
+" GitSigns
+hi GitSignsAdd                  guifg=#7EAE81    guibg=NONE       ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi GitSignsChange               guifg=#D65D0E    guibg=NONE       ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi GitSignsDelete               guifg=#CC241D    guibg=NONE       ctermfg=white    ctermbg=grey     gui=NONE         cterm=NONE
+hi MoreMsg                      guifg=#7EAE81    guibg=NONE       ctermfg=white    ctermbg=grey     gui=BOLD         cterm=BOLD
+hi ModeMsg                      guifg=#D3D3D3    guibg=NONE       ctermfg=white    ctermbg=grey     gui=BOLD         cterm=BOLD
